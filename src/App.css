@@ -2,16 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
 .App-header {
   background-color: #282c34;
@@ -28,11 +18,50 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Movie-container {
+  widows: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  /* untuk turun ke bawah */
+  /* flex-direction: column; */
 }
+
+
+.Movie-wrapper {
+  widows: 500px;
+  background-color: whitesmoke;
+  color: black;
+} 
+
+.Movie-search{
+  height: 24px;
+  margin-bottom: 20px;
+  font-size: medium;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.Movie-title{
+  margin-top: 20px;
+  height: 60px;
+  padding-top: 20px;
+  font-weight: bold;
+}
+
+
+.Movie-date{
+  margin-top: 20px;
+  font-style: italic;
+}
+
+.Movie-rate {
+  color: red;
+  font-weight: bold;
+  height: 60px;
+  text-decoration: underline;
+}
+
+
